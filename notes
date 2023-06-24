@@ -1,5 +1,9 @@
 chmod +x filename.sh
 -----------------------------------------
+apk add openrc
+-----------------------------------------
+vi /etc/apk/repositories
+tail -f /etc/apk/repositories
 ------------Install git-----------------
 apk update
 apk add git
