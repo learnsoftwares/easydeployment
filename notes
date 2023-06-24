@@ -1,0 +1,16 @@
+chmod +x filename.sh
+-----------------------------------------
+------------Install git-----------------
+apk update
+apk add git
+------------Install maven-----------------
+apk update
+apk add maven
+
+---------------switch java--------------
+update-alternatives --list java
+update-alternatives --set java /path/to/java
+java -version
+
+-----------------------------------------
+
